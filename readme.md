@@ -10,7 +10,7 @@ electron-2048是一个基于[electron](https://github.com/atom/electron)的桌�
 
 界面截图：
 
-![运行主界面](http://pan.baidu.com/s/1pJUohR1)
+![运行主界面](http://7xrjbo.com1.z0.glb.clouddn.com/hhh.png)
 
 #快速使用
 	
