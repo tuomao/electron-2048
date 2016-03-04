@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>2048</title>
+    <link href="./res/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="./res/css/index.css" rel="stylesheet" type="text/css">
+</head>
+<body >
+    <div class="m_top">
+        <div style="width: 100%;height: 120px">
+            <div class="target"> 2048</div>
+            <div class="div_m">
+                    <div class="div_score">
+                        <div class="score_description" style="font-size: 25px;">分数</div>
+                        <div class="score">0</div>
+                    </div>
+
+                    <div class="div_menu">
+                        菜单
+                    </div>
+            </div>
+            <div class="div_m" style="width:120px ">
+                <div class="div_score">
+                    <div class="score_description" style="font-size: 16px;">历史最高成绩</div>
+                    <div class="score" id='best_score'>0</div>
+                </div>
+                <div class="div_menu" id='rank'>排行榜</div>
+            </div>
+        </div>
+        <p class="m_hint">合并这些数字以得到2048方块!</p>
+    </div>
+    <div class="game_area">
+        <table >
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+</body>
+<script src="./js/index.js"></script>
+</html>

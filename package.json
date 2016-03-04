@@ -1,0 +1,14 @@
+{
+  "name": "2048",
+  "version": "0.0.1",
+  "main": "./main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron-debug": "^0.5.2"
+  },
+  "devDependencies": {
+    "retyped-node-notifier-tsd-ambient": "0.0.0-0"
+  }
+}
